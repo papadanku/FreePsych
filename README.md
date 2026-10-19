@@ -115,3 +115,9 @@ The **Date Calculator** requires **no installation** and is designed to be **off
 
 1. Open the `date-calculator.html` file directly from your local machine or a shared drive.
 1. Use the intuitive interface to input dates and perform calculations.
+
+## AI Diligence Statement
+
+While developing and maintaining FreePsych, I used AI models as tools to streamline documentation, version control, and technical research. **Mistral AI's Ministral** model helped draft commit messages and write project documentation. **Google's Gemini Flash-Lite** served as an skills creator, helping me create the skills FreePsych relies on.
+
+I affirm that all AI-assisted content, documentation, and frameworks have undergone human review, evaluation, and adaptation. The final implementation, architecture, and output reflect my decisions, expertise, and intended design. While these AI models provided valuable assistance throughout development, I remain responsible for the project's codebase, accuracy, and overall direction. This disclosure is provided in the spirit of transparency, open-source integrity, and a commitment to acknowledging the collaborative tools utilized in FreePsych's creation.
