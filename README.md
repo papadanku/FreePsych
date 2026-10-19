@@ -13,7 +13,7 @@ This repository includes:
 * **Privacy-First:** Data processing happens locally or within your own secure Google/CLI environment.
 * **Professional Standards:** Narrative templates and scoring rules are based on established clinical practices and classification tables.
 
-## Psychologist Assistant Skills (*/skills*)
+## Psychologist Assistant Skills: */skills*
 
 The **Psychologist Assistant Skills** directory contains **narrative drafting templates** for standardized psychoeducational evaluation reports. These templates are designed to assist school psychologists in generating professional, consistent, and clinically accurate narratives for assessments like cognitive interpretations, IEP eligibility determinations, and educational planning.
 
@@ -85,8 +85,6 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
     - Paste the content below the `---` line into the **Write your skill instructions here** placeholder.
 1. Click **Create** to finalize the skill setup.
 
----
-
 #### General Usage
 
 * The templates are **Markdown-based** and **platform-agnostic**. Simply copy the relevant `.md` file (e.g., `e6-1-draft-interpretation-wj-cog.md`) into your preferred text editor or document tool.
@@ -94,7 +92,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 No installation is required beyond copying the files to your desired location.
 
-## Date Calculator (*/apps/date-calculator*)
+## Date Calculator: */apps/date-calculator*
 
 The **Date Calculator** is a **self-contained HTML application** designed for calculating durations between dates and performing date arithmetic. It is ideal for school psychologists needing to track timelines for assessments, IEP eligibility, or other administrative tasks.
 
