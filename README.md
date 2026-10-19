@@ -1,6 +1,6 @@
-# FrIEP
+# FreePsych
 
-A repository for tools to assist school psychologists in automating repetitive tasks related to psychological assessments and IEP (Individualized Education Program) drafting.
+A repository of tools to help school psychologists automate repetitive tasks in drafting psychological evaluations.
 
 This repository includes:
 
@@ -17,7 +17,7 @@ This repository includes:
 
 The **Psychologist Assistant Skills** directory contains **narrative drafting templates** for standardized psychoeducational evaluation reports. These templates are designed to assist school psychologists in generating professional, consistent, and clinically accurate narratives for assessments like cognitive interpretations, IEP eligibility determinations, and educational planning.
 
-### Install Instructions (Agents)
+### Installation Instructions (Agents)
 
 FrIEP's skills are supported in the following products:
 
@@ -46,7 +46,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 * **OpenCode**: Copy FrIEP's `/skills` folder to `<workspace-root>/.opencode/skills/`.
 * **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.vibe/skills/`.
 
-### Install Instructions (Regular)
+### Installation Instructions (Regular)
 
 * Claude (Anthropic): https://claude.ai/
 * Gemini (Google): https://gemini.google.com/app
