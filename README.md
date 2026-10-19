@@ -13,7 +13,7 @@ This repository includes:
 * **Privacy-First:** Data processing happens locally or within your own secure Google/CLI environment.
 * **Professional Standards:** Narrative templates and scoring rules are based on established clinical practices and classification tables.
 
-## Psychologist Assistant Skills (`/skills`)
+## Psychologist Assistant Skills (*/skills*)
 
 The **Psychologist Assistant Skills** directory contains **narrative drafting templates** for standardized psychoeducational evaluation reports. These templates are designed to assist school psychologists in generating professional, consistent, and clinically accurate narratives for assessments like cognitive interpretations, IEP eligibility determinations, and educational planning.
 
@@ -41,10 +41,10 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 #### Workspace-Specific Installation
 
 * **Antigravity (Google)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.agents/skills/`.
-* **Claude Code (Anthropic)**: Copy FrIEP's `/skills` folder to `./.claude/skills/`.
-* **Codex (OpenAI)**: Copy FrIEP's `/skills` folder to `.agents/skills/`.
-* **OpenCode**: Copy FrIEP's `/skills` folder to `./.opencode/skills/`.
-* **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `./.vibe/skills/`.
+* **Claude Code (Anthropic)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.claude/skills/`.
+* **Codex (OpenAI)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.agents/skills/`.
+* **OpenCode**: Copy FrIEP's `/skills` folder to `<workspace-root>/.opencode/skills/`.
+* **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.vibe/skills/`.
 
 ### Install Instructions (Regular)
 
@@ -94,7 +94,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 No installation is required beyond copying the files to your desired location.
 
-## Date Calculator (`/apps/date-calculator`)
+## Date Calculator (*/apps/date-calculator*)
 
 The **Date Calculator** is a **self-contained HTML application** designed for calculating durations between dates and performing date arithmetic. It is ideal for school psychologists needing to track timelines for assessments, IEP eligibility, or other administrative tasks.
 
