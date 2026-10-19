@@ -23,6 +23,7 @@ FrIEP's skills are supported in the following products:
 
 * Antigravity (Google): https://antigravity.google/
 * Claude Code (Anthropic): https://claude.com/product/claude-code
+* Codex (OpenAI): https://openai.com/codex/
 * Vibe (Mistral AI): https://mistral.ai/products/vibe/
 * OpenCode: https://opencode.ai/
 * And more... https://agentskills.io/clients
@@ -33,6 +34,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 * **Antigravity (Google)**: Copy FrIEP's `/skills` folder to `~/.gemini/config/skills/`.
 * **Claude Code (Anthropic)**: Copy FrIEP's `/skills` folder to `~/.claude/skills/`.
+* **Codex (OpenAI)**: Copy FrIEP's `/skills` folder to `~/.agents/skills/`.
 * **OpenCode**: Copy FrIEP's `/skills` folder to `~/.config/opencode/skills/`.
 * **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `~/.vibe/skills/`.
 
@@ -40,6 +42,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 * **Antigravity (Google)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.agents/skills/`.
 * **Claude Code (Anthropic)**: Copy FrIEP's `/skills` folder to `./.claude/skills/`.
+* **Codex (OpenAI)**: Copy FrIEP's `/skills` folder to `.agents/skills/`.
 * **OpenCode**: Copy FrIEP's `/skills` folder to `./.opencode/skills/`.
 * **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `./.vibe/skills/`.
 
