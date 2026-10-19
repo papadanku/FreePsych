@@ -19,7 +19,7 @@ The **Psychologist Assistant Skills** directory contains **narrative drafting te
 
 ### Installation Instructions (Agents)
 
-FrIEP's skills are supported in the following products:
+FreePsych's skills are supported in the following products:
 
 * Antigravity (Google): https://antigravity.google/
 * Claude Code (Anthropic): https://claude.com/product/claude-code
@@ -32,19 +32,19 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 #### Global Installation (All Workspaces)
 
-* **Antigravity (Google)**: Copy FrIEP's `/skills` folder to `~/.gemini/config/skills/`.
-* **Claude Code (Anthropic)**: Copy FrIEP's `/skills` folder to `~/.claude/skills/`.
-* **Codex (OpenAI)**: Copy FrIEP's `/skills` folder to `~/.agents/skills/`.
-* **OpenCode**: Copy FrIEP's `/skills` folder to `~/.config/opencode/skills/`.
-* **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `~/.vibe/skills/`.
+* **Antigravity (Google)**: Copy FreePsych's `/skills` folder to `~/.gemini/config/skills/`.
+* **Claude Code (Anthropic)**: Copy FreePsych's `/skills` folder to `~/.claude/skills/`.
+* **Codex (OpenAI)**: Copy FreePsych's `/skills` folder to `~/.agents/skills/`.
+* **OpenCode**: Copy FreePsych's `/skills` folder to `~/.config/opencode/skills/`.
+* **Vibe (Mistral AI)**: Copy FreePsych's `/skills` folder to `~/.vibe/skills/`.
 
 #### Workspace-Specific Installation
 
-* **Antigravity (Google)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.agents/skills/`.
-* **Claude Code (Anthropic)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.claude/skills/`.
-* **Codex (OpenAI)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.agents/skills/`.
-* **OpenCode**: Copy FrIEP's `/skills` folder to `<workspace-root>/.opencode/skills/`.
-* **Vibe (Mistral AI)**: Copy FrIEP's `/skills` folder to `<workspace-root>/.vibe/skills/`.
+* **Antigravity (Google)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.agents/skills/`.
+* **Claude Code (Anthropic)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.claude/skills/`.
+* **Codex (OpenAI)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.agents/skills/`.
+* **OpenCode**: Copy FreePsych's `/skills` folder to `<workspace-root>/.opencode/skills/`.
+* **Vibe (Mistral AI)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.vibe/skills/`.
 
 ### Installation Instructions (Regular)
 
