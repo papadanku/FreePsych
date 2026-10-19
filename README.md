@@ -54,7 +54,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 #### Claude (Anthropic)
 
-1. Open https://claude.ai/.
+1. Open https://claude.ai/
 1. Click your profile icon in the bottom-left corner.
 1. Select **Skills** from the dropdown menu.
 1. Click the **Add** button in the top-right corner.
@@ -64,7 +64,7 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 #### Gemini (Google)
 
-1. Open https://gemini.google.com/app.
+1. Open https://gemini.google.com/app
 1. Click the settings gear icon in the bottom-left corner.
 1. In the settings menu, select **Skills**.
 1. Click the **Create** button in the top-right corner.
@@ -74,8 +74,8 @@ To use the **Psychologist Assistant Skills** templates, follow these platform-sp
 
 #### Vibe (Mistral AI)
 
-1. Open https://chat.mistral.ai/chat.
-1. Click the box in the top-right corner and select **Studio**. This will redirect you to https://console.mistral.ai/.
+1. Open https://chat.mistral.ai/chat
+1. Click the box in the top-right corner and select **Studio**. This will redirect you to https://console.mistral.ai/
 1. Navigate to the **Skills** section under **Context**.
 1. Click the **Create Skill** button in the top-left corner.
 1. Open the `SKILL.md` file from your desired skill folder (e.g., `skills/e6-8-draft-recommendations/SKILL.md`).
