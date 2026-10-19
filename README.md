@@ -1,8 +1,8 @@
-# FreePsych
+# Welcome to FreePsych!
 
-A repository of tools to help school psychologists automate repetitive tasks in drafting psychological evaluations.
+FreePsych is a repository of tools to help school psychologists automate repetitive tasks in drafting psychological evaluations.
 
-This repository includes:
+FreePsych includes:
 
 - **Psychologist Assistant Skills**: Narrative drafting templates for standardized psychoeducational evaluation reports.
 - **Date Calculator**: A self-contained HTML application for calculating durations between dates and performing date arithmetic.
