@@ -2,6 +2,7 @@
 name: e6-1-draft-interpretation-gars-3
 description: "Generate professional autism assessment interpretation narratives for the Gilliam Autism Rating Scale, Third Edition (GARS-3). Use when drafting psychoeducational evaluation reports requiring GARS-3 subscale and Autism Index narratives."
 ---
+
 # Prompt: Gilliam Autism Rating Scale, Third Edition (GARS-3) Narrative Generator
 
 Use this prompt to generate a formal, technical narrative for the "Autism Assessment" section of a psychoeducational report using the GARS-3 assessment results.
