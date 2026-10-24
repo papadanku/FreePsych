@@ -2,16 +2,40 @@
 
 FreePsych is a repository of tools to help school psychologists automate repetitive tasks in drafting psychological evaluations.
 
-FreePsych includes:
+## About FreePsych
 
-- **Psychologist Assistant Skills**: Narrative drafting templates for standardized psychoeducational evaluation reports.
-- **Date Calculator**: A self-contained HTML application for calculating durations between dates and performing date arithmetic.
+### Who is FreePsych for?
+
+FreePsych was created and is maintained for psychologists and professionals administering psychometrics.
+
+### What is FreePsych
+
+FreePsych is a repository of tools designed to help psychologists and professionals automate clerical tasks in drafting psychological evaluations and managing psychometric data.
+
+### Where was FreePsych created?
+
+FreePsych originated in the confines of an elementary school in Arizona.
+
+### When was FreePsych created?
+
+FreePsych was developed in **Fall 2025** to address evolving needs in the field.
+
+### Why FreePsych?
+
+FreePsych aims to provide a **free, open-source framework** to help create **streamlined, efficient, modern psychometric evaluations** accessible to all professionals in the field.
 
 ## Philosophy
 
 * **Zero External Dependencies:** All tools are designed to be lightweight, portable, and independent of external libraries or frameworks.
 * **Privacy-First:** Data processing happens locally or within your own secure Google/CLI environment.
 * **Professional Standards:** Narrative templates and scoring rules are based on established clinical practices and classification tables.
+
+# Applications
+
+FreePsych includes:
+
+- **Psychologist Assistant Skills**: Narrative drafting templates for standardized psychoeducational evaluation reports.
+- **Date Calculator**: A self-contained HTML application for calculating durations between dates and performing date arithmetic.
 
 ## Psychologist Assistant Skills: */skills*
 
@@ -30,21 +54,25 @@ FreePsych's skills are supported in the following products:
 
 To use the **Psychologist Assistant Skills** templates, follow these platform-specific instructions:
 
-#### Global Installation (All Workspaces)
+### Global Installation (All Workspaces)
 
-* **Antigravity (Google)**: Copy FreePsych's `/skills` folder to `~/.gemini/config/skills/`.
-* **Claude Code (Anthropic)**: Copy FreePsych's `/skills` folder to `~/.claude/skills/`.
-* **Codex (OpenAI)**: Copy FreePsych's `/skills` folder to `~/.agents/skills/`.
-* **OpenCode**: Copy FreePsych's `/skills` folder to `~/.config/opencode/skills/`.
-* **Vibe (Mistral AI)**: Copy FreePsych's `/skills` folder to `~/.vibe/skills/`.
+Copy FreePsych's `/skills` folder into the following paths:
 
-#### Workspace-Specific Installation
-
-* **Antigravity (Google)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.agents/skills/`.
-* **Claude Code (Anthropic)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.claude/skills/`.
-* **Codex (OpenAI)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.agents/skills/`.
-* **OpenCode**: Copy FreePsych's `/skills` folder to `<workspace-root>/.opencode/skills/`.
-* **Vibe (Mistral AI)**: Copy FreePsych's `/skills` folder to `<workspace-root>/.vibe/skills/`.
+- **Antigravity (Google)**
+    - `~/.gemini/config/skills/` (global)
+    - `<workspace-root>/.agents/skills/` (workspace)
+- **Claude Code (Anthropic)**
+    - `~/.claude/skills/` (global)
+    - `<workspace-root>/.claude/skills/` (workspace)
+- **Codex (OpenAI)**
+    - `~/.agents/skills/` (global)
+    - `<workspace-root>/.agents/skills/` (workspace)
+- **OpenCode**
+    - `~/.config/opencode/skills/` (global)
+    - `<workspace-root>/.opencode/skills/` (workspace)
+- **Vibe (Mistral AI)**
+    - `~/.vibe/skills/` (global)
+    - `<workspace-root>/.vibe/skills/` (workspace)
 
 ### Installation Instructions (Regular)
 
@@ -116,7 +144,7 @@ The **Date Calculator** requires **no installation** and is designed to be **off
 1. Open the `date-calculator.html` file directly from your local machine or a shared drive.
 1. Use the intuitive interface to input dates and perform calculations.
 
-## AI Diligence Statement
+# AI Diligence Statement
 
 While developing and maintaining FreePsych, I used AI models as tools to streamline documentation, version control, and technical research. **Mistral AI's Ministral** model helped draft commit messages and write project documentation. **Google's Gemini Flash-Lite** served as an skills creator, helping me create the skills FreePsych relies on.
 
