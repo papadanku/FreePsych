@@ -1,5 +1,5 @@
 ---
-name: e0-notification-parent-tap-meeting-parentsquare
+name: e0-notification-message-parent-tap-meeting
 description: Generates a professional Team Approach Process (TAP) meeting notification email and follow-up template for parents and guardians. Use when scheduling a TAP meeting following a parent evaluation request.
 ---
 
