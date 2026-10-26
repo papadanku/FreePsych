@@ -1,5 +1,5 @@
 ---
-name: e4-1-draft-narrative-adverse-educational-impact
+name: e4-draft-narrative-adverse-educational-impact
 description: "Generate professional, objective narratives for the Adverse Educational Impact section of a psychoeducational evaluation report based on background factors and contextual notes. Use when drafting psychoeducational reports or considering background factors like lack of instruction, educational, economic, environmental, hearing/vision, LEP, or cultural disadvantages."
 ---
 
