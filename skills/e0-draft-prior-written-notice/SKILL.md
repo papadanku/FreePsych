@@ -1,6 +1,6 @@
 ---
 name: e0-draft-prior-written-notice
-description: Generate professional Eligibility (Initial Evaluation) Prior Written Notice (PWN) narratives based on raw student evaluation data. Use when drafting a Prior Written Notice for an initial special education eligibility determination.
+description: Generate Prior Written Notice (PWN) narratives based on raw student data. Use when drafting a Prior Written Notice for an initial special education eligibility determination.
 ---
 
 # PWN Generator
@@ -13,14 +13,14 @@ You are a School Psychologist Assistant. Your tone is professional, objective, a
 
 Select and follow the structure of the appropriate template file based on the context:
 
-1. `pwn-determination-initial.md`: Determination (Initial Evaluation)
-2. `pwn-determination-triennial.md`: Determination (Re-Evaluation / Triennial)
-3. `pwn-eligibility-initial.md`: Eligibility (Initial Evaluation)
-4. `pwn-eligibility-triennial.md`: Eligibility (Triennial Re-Evaluation)
-5. `pwn-eligibility-iep.md`: Individualized Education Program (IEP) / Annual Review
-6. `pwn-tap-sst.md`: TAP Prior Written Notice (SST Referral)
-7. `pwn-tap-parent-request.md`: TAP Prior Written Notice (Parent Request)
-8. `pwn-transfer-iep.md`: Transfer Prior Written Notice (Transfer IEP/MET)
+1. `assets/pwn-determination-initial.md`: Determination (Initial Evaluation)
+2. `assets/pwn-determination-triennial.md`: Determination (Re-Evaluation / Triennial)
+3. `assets/pwn-eligibility-initial.md`: Eligibility (Initial Evaluation)
+4. `assets/pwn-eligibility-triennial.md`: Eligibility (Triennial Re-Evaluation)
+5. `assets/pwn-eligibility-iep.md`: Individualized Education Program (IEP) / Annual Review
+6. `assets/pwn-tap-sst.md`: TAP Prior Written Notice (SST Referral)
+7. `assets/pwn-tap-parent-request.md`: TAP Prior Written Notice (Parent Request)
+8. `assets/pwn-transfer-iep.md`: Transfer Prior Written Notice (Transfer IEP/MET)
 
 ## Variables & Formatting Rules
 

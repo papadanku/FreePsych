@@ -1,6 +1,6 @@
 ---
 name: e6-1-draft-interpretation-basc
-description: Generate professional BASC-3 multi-rater social-emotional interpretation narratives for psychoeducational reports. Use when drafting psychoeducational evaluation reports requiring BASC-3 multi-rater scale interpretation.
+description: Generate professional BASC-3 social-emotional interpretation narratives for psychoeducational reports. Use when drafting psychoeducational evaluation reports requiring BASC-3 interpretation.
 ---
 
 # BASC-3 Interpretation Narrative Generator
@@ -11,9 +11,9 @@ Use this skill to generate a formal, technical narrative for the "Social-Emotion
 
 This skill includes three template files in its resource directory:
 
-1. `template-interpretation-basc-multi-rater-scale.md`: Multi-rater (Parent & Teacher) evaluation narrative template.
-2. `template-interpretation-basc-self-rater-scale.md`: Self-Report of Personality (SRP) template for adolescents/older examinees.
-3. `template-interpretation-basc-self-rater-scale-child.md`: Self-Report of Personality (SRP) template for children.
+1. `assets/template-interpretation-basc-multi-rater-scale.md`: Multi-rater (Parent & Teacher) evaluation narrative template.
+2. `assets/template-interpretation-basc-self-rater-scale.md`: Self-Report of Personality (SRP) template for adolescents/older examinees.
+3. `assets/template-interpretation-basc-self-rater-scale-child.md`: Self-Report of Personality (SRP) template for children.
 
 Refer to these template files to select and populate the appropriate structure based on the raters provided (Multi-Rater vs. Self-Report Child vs. Self-Report Adolescent).
 

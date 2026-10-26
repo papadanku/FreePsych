@@ -1,4 +1,7 @@
 
+# Template: Behavior Assessment System for Children - Third Edition - Multi-Rater Scale (Child)
+
+```
 To obtain information regarding _firstname's interpretation of _his/her social/emotional and behavioral functioning, the Behavior Assessment System for Children, Third Edition Self Report of Personality (BASC-3 SRP) was completed by _firstname. The BASC-3 is a multidimensional approach to evaluating the behavior of children and adolescents. It measures numerous aspects of behavior and personality, including positive (adaptive) and negative (clinical) dimensions. Scores in the clinically significant range suggest a high level of maladjustment. In contrast, scores in the at-risk range identify an important problem that may not be severe enough to require formal treatment or the potential of developing an issue that needs careful monitoring.
 
 School Problems: This composite measures attitudes and behaviors that may be problematic for school success. _firstname reported [Classification] functioning on this composite (T-Score = [??]). _firstname's ratings indicate that _he/she [likes/dislikes] school. Additionally, _firstname described _him/herself as having [age-appropriate/concerning] attitudes towards _his/her teachers.
@@ -10,3 +13,4 @@ Inattention/Hyperactivity: This composite measures problems with attention, hype
 Personal Adjustment: This composite measures problems with interpersonal relations and self-perception. _firstname rated _his/her overall personal adjustment to be within the [Classification] range (T-Score = [??]). More specifically, _firstname reported that _he/she [has/lacks] a positive relationship with _his/her parents, [feels/does not feel] liked and respected by _his/her peers, generally reports [liking/disliking] _him/herself, and often [feels/lacks] confidence in _his/her abilities.
 
 The BASC-3 Rating Scales assess a rater's response pattern to determine how results should be interpreted. _firstname's rating consistency, response pattern, and F-Index were [acceptable/cautionary], indicating that these ratings are likely a valid representation of _his/her current behavior/social-emotional functioning. Additionally, _his/her ratings were in the [Classification] range for the L-Index and within the [Classification] range for the V-Index.
+```
