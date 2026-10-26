@@ -1,5 +1,5 @@
 ---
-name: e5-classroom-observation-summarizer
+name: e0-classroom-observation-summarizer
 description: "Takes raw classroom observation data in various formats (text, images, PDFs, notes) and generates a comprehensive paragraph-form summary. Use when the user asks to summarize classroom observations or format observation notes into evaluation-ready narrative paragraphs."
 ---
 
