@@ -1,0 +1,6 @@
+
+# Special Education Teacher (Re-Evaluation)
+
+```
+_firstname came willingly to the familiar testing environment, which took place in the Special Education Teacher's resource classroom. _firstname was cooperative with all the given tasks and understood the instructions, engaging well with conversational prompts and demonstrating good rapport. They constantly made eye contact when responding to verbal questions. Throughout the re-evaluation session, _firstname displayed an appropriate activity level and sustained attention and concentration across both verbal and non-verbal test demands. _firstname approached the tasks with reasonable self-confidence, taking care in responding to all subtests-covering Letter-Word Identification, Applied Problems, Spelling, Passage Comprehension, Calculation, Writing Samples, Word Attack, Oral Reading, Sentence Reading Fluency, Math Facts Fluency, Sentence Writing Fluency, Reading Recall, and Number Matrices. When presented with challenging items, _firstname [Insert Response to difficult tasks]. Although they were offered, _firstname did not take any breaks during the cognitive assessment administration. Testing took place over one session, and _firstname seemed to be in a good mood during testing. The results obtained would be considered a valid measure of _firstname's academic abilities.
+```

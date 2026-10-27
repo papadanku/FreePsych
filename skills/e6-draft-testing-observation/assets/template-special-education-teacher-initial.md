@@ -1,0 +1,6 @@
+
+# Special Education Teacher (Initial Evaluation)
+
+```
+_firstname came willingly to the unfamiliar testing environment, which took place in the Special Education Teacher's resource classroom. _firstname was cooperative with all the given tasks and understood the instructions, displaying [Insert Level of conversational proficiency]. They constantly made eye contact when responding to verbal questions. During the academic assessment, _firstname maintained an appropriate level of activity and demonstrated [Insert Attention and concentration]. _firstname approached the evaluation with [Insert Self-confidence], taking care in responding to items across academic domains-including Letter-Word Identification, Applied Problems, Spelling, Passage Comprehension, Calculation, Writing Samples, Word Attack, Oral Reading, Sentence Reading Fluency, Math Facts Fluency, Sentence Writing Fluency, Reading Recall, and Number Matrices. When encountering difficult tasks, _firstname [Insert Response to difficult tasks]. Although they were offered, _firstname did not take any breaks during the cognitive assessment administration. Testing took place over one session, and _firstname seemed to be in a good mood during testing. The results obtained would be considered a valid measure of _firstname's academic abilities.
+```
