@@ -26,9 +26,9 @@ FreePsych aims to provide a **free, open-source framework** to help create **str
 
 ## Philosophy
 
-* **Zero External Dependencies:** All tools are designed to be lightweight, portable, and independent of external libraries or frameworks.
-* **Privacy-First:** Data processing happens locally or within your own secure Google/CLI environment.
-* **Professional Standards:** Narrative templates and scoring rules are based on established clinical practices and classification tables.
+- **Zero External Dependencies:** All tools are designed to be lightweight, portable, and independent of external libraries or frameworks.
+- **Privacy-First:** Data processing happens locally or within your own secure Google/CLI environment.
+- **Professional Standards:** Narrative templates and scoring rules are based on established clinical practices and classification tables.
 
 # Applications
 
@@ -37,26 +37,22 @@ FreePsych includes:
 - **Psychologist Assistant Skills**: Narrative drafting templates for standardized psychoeducational evaluation reports.
 - **Date Calculator**: A self-contained HTML application for calculating durations between dates and performing date arithmetic.
 
-## Psychologist Assistant Skills: */skills*
+## Psychologist Assistant Skills: *plugin/skills*
 
 The **Psychologist Assistant Skills** directory contains **narrative drafting templates** for standardized psychoeducational evaluation reports. These templates are designed to assist school psychologists in generating professional, consistent, and clinically accurate narratives for assessments like cognitive interpretations, IEP eligibility determinations, and educational planning.
 
-### Installation Instructions (Agents)
+### Installation Instructions - CLI Agents
 
 FreePsych's skills are supported in the following products:
 
-* Antigravity (Google): https://antigravity.google/
-* Claude Code (Anthropic): https://claude.com/product/claude-code
-* Codex (OpenAI): https://openai.com/codex/
-* Vibe (Mistral AI): https://mistral.ai/products/vibe/
-* OpenCode: https://opencode.ai/
-* And more... https://agentskills.io/clients
+- **Antigravity (Google)**: https://antigravity.google/
+- **Claude Code (Anthropic)**: https://claude.com/product/claude-code
+- **Codex (OpenAI)**: https://openai.com/codex/
+- **Vibe (Mistral AI)**: https://mistral.ai/products/vibe/
+- **OpenCode**: https://opencode.ai/
+- And more... https://agentskills.io/clients
 
-To use the **Psychologist Assistant Skills** templates, follow these platform-specific instructions:
-
-### Global Installation (All Workspaces)
-
-Copy FreePsych's `/skills` folder into the following paths:
+**Copy** FreePsych's `plugin/skills` folder into the following paths:
 
 - **Antigravity (Google)**
     - `~/.gemini/config/skills/` (global)
@@ -74,15 +70,19 @@ Copy FreePsych's `/skills` folder into the following paths:
     - `~/.vibe/skills/` (global)
     - `<workspace-root>/.vibe/skills/` (workspace)
 
-### Installation Instructions (Regular)
+### Installation Instructions - Skills
 
-* Claude (Anthropic): https://claude.ai/
-* Gemini (Google): https://gemini.google.com/app
-* Vibe (Mistral AI): https://chat.mistral.ai/chat
+- **Claude (Anthropic)**
+    - Desktop App: https://claude.com/download
+    - Docs: https://support.claude.com/en/articles/12512180-use-skills-in-claude
+- **Gemini (Google)**
+    - Desktop App: https://gemini.google/desktop/
+    - Download: https://gemini.google/overview/productivity/
+- **Vibe (Mistral AI)**: https://chat.mistral.ai/work
 
 #### Claude (Anthropic)
 
-1. Open https://claude.ai/
+1. Open the Claude desktop app.
 1. Click your profile icon in the bottom-left corner.
 1. Select **Skills** from the dropdown menu.
 1. Click the **Add** button in the top-right corner.
@@ -92,7 +92,7 @@ Copy FreePsych's `/skills` folder into the following paths:
 
 #### Gemini (Google)
 
-1. Open https://gemini.google.com/app
+1. Open the Gemini desktop app.
 1. Click the settings gear icon in the bottom-left corner.
 1. In the settings menu, select **Skills**.
 1. Click the **Create** button in the top-right corner.
@@ -113,10 +113,31 @@ Copy FreePsych's `/skills` folder into the following paths:
     - Paste the content below the `---` line into the **Write your skill instructions here** placeholder.
 1. Click **Create** to finalize the skill setup.
 
-#### General Usage
+### Installation Instructions - Plugin
 
-* The templates are **Markdown-based** and **platform-agnostic**. Simply copy the relevant `.md` file (e.g., `e6-1-draft-interpretation-wj-cog.md`) into your preferred text editor or document tool.
-* Populate the placeholders with assessment data to generate a polished narrative.
+- **Claude (Anthropic)**
+    - Desktop App: https://claude.com/download
+    - Docs: https://support.claude.com/en/articles/13837440-use-plugins-in-claude
+
+#### Claude (Anthropic)
+
+1. **Zip the Plugin Folder**:
+   - Locate the `/plugin` folder in the FreePsych repository.
+   - Compress the folder into a `.zip` file.
+1. **Install the Plugin in Claude Desktop App**:
+   - Open the Claude Desktop App.
+   - Navigate to the **Plugins** section in the app.
+   - Click **Add Plugin** and select **Install from File**.
+   - Upload the `.zip` file you created from the `/plugin` folder.
+   - Wait for the installation to complete.
+1. **Enable the Plugin**:
+   - Once installed, the plugin will appear in your list of available plugins.
+   - Enable the plugin to make the skills available for use in Claude.
+
+### General Usage
+
+- The templates are **Markdown-based** and **platform-agnostic**. Simply copy the relevant `.md` file (e.g., `e6-1-draft-interpretation-wj-cog.md`) into your preferred text editor or document tool.
+- Populate the placeholders with assessment data to generate a polished narrative.
 
 No installation is required beyond copying the files to your desired location.
 

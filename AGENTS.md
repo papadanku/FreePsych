@@ -1,63 +1,72 @@
 
-# FreePsych: Agent Instructions
+# FreePsych Agent Instructions
 
-This repository contains tools for school psychologists to automate repetitive tasks in drafting psychological evaluations and date calculations.
+## Overview
 
----
+FreePsych is a repository of tools designed to assist school psychologists in automating clerical tasks related to drafting psychological evaluations and managing psychometric data. The project includes:
 
-### Key Directories and Workflows
+- **Psychologist Assistant Skills**: Markdown-based narrative drafting templates for standardized psychoeducational evaluation reports.
+- **Date Calculator**: A self-contained HTML application for calculating durations between dates and performing date arithmetic.
 
-- **`/skills`**
-    - Contains **Markdown-based narrative drafting templates** for standardized psychoeducational evaluation reports.
-    - Each skill folder (e.g., `e6-8-draft-recommendations`) includes a `SKILL.md` file with instructions for agents.
-    - **Installation for Agents**:
-        - Copy the `/skills` folder to the platform-specific skills directory (e.g., `~/.config/opencode/skills/` for OpenCode).
-        - Ensure the `SKILL.md` file is properly formatted for the platform (e.g., Claude, OpenCode).
-- **`/apps/date-calculator`**
-    - A **self-contained HTML application** for calculating durations between dates and performing date arithmetic.
-    - **Usage**: Open `date-calculator.html` directly in any modern browser. No installation or dependencies required.
+## Key Directories and Files
 
----
+### Psychologist Assistant Skills
 
-### Agent-Specific Notes
+- **Location**: `plugin/skills/`
+- **Purpose**: Contains narrative drafting templates for standardized psychoeducational evaluation reports.
+- **Installation**: Copy the `plugin/skills` folder to the appropriate platform-specific directory (e.g., `~/.config/opencode/skills/` for OpenCode).
 
-- **Platform-Specific Installation**:
-    - For **OpenCode**, copy the `/skills` folder to `~/.config/opencode/skills/`.
-    - For **Claude Code**, copy the `/skills` folder to `~/.claude/skills/`.
-    - For **Vibe**, copy the `/skills` folder to `~/.vibe/skills/`.
-- **Skill Usage**:
-    - Each skill folder contains a `SKILL.md` file with **strict filtering criteria** (e.g., developmental appropriateness, feasibility).
-    - **Do not modify the wording** of the recommendations in the templates. Use them **verbatim** as provided.
-- **Date Calculator**:
-    - Works **offline** and requires no setup beyond opening the HTML file.
-    - Supports **duration calculation** and **date arithmetic** with intuitive UI.
+### Date Calculator
 
----
+- **Location**: `apps/date-calculator/date-calculator.html`
+- **Purpose**: A self-contained HTML application for date calculations.
+- **Usage**: Open the `date-calculator.html` file directly in any modern browser. No installation required.
 
-### Execution Flow
+## Agent-Specific Guidance
 
-- **For Skills**:
-    1. Copy the `/skills` folder to the platform-specific skills directory.
-    2. Ensure the `SKILL.md` file is correctly formatted for the platform.
-    3. Use the skill by referencing the `name:` and `description:` fields in `SKILL.md`.
+### Skill Templates
 
-- **For Date Calculator**:
-    1. Open `date-calculator.html` directly in a browser.
-    2. No additional setup is required.
+- **Template Structure**: Each skill folder contains a `SKILL.md` file with instructions and a template file (e.g., `e6-1-draft-interpretation-wj-cog.md`).
+- **Usage**: Copy the relevant `.md` file into your preferred text editor or document tool and populate placeholders with assessment data.
 
----
+### Recommendations and Narratives
 
-### Constraints and Gotchas
+- **Recommendations**: Use the `psy-draft-recommendations` skill to generate tailored educational recommendations for students. Ensure you adhere to the filtering criteria:
+  - **Developmental Appropriateness**: Remove items suited for early childhood.
+  - **Feasibility**: Avoid recommendations requiring specialized equipment or training.
+  - **Practicality**: Prioritize low-tech strategies.
+  - **Quantity**: Limit each section to a maximum of 8 items.
+- **Narrative Templates**: Use the provided narrative templates for cognitive interpretations, summaries, and other sections of psychoeducational reports. Ensure you populate placeholders with accurate and relevant data.
 
-- **Skills**:
-  - Adhere strictly to the **filtering criteria** in `SKILL.md` (e.g., developmental appropriateness, practicality).
-  - Do not alter the **wording** of recommendations.
-- **Date Calculator**:
-  - Works **without internet** or external dependencies.
+### Testing and Observations
 
----
+- **Observation Templates**: Use the templates in `psy-draft-testing-observation/assets/` to document observations from teachers and psychologists. Customize placeholders like `[Insert Level of conversational proficiency]` with relevant details.
 
-### References
+### Communication Templates
 
-- For **OpenCode-specific instructions**, refer to the `README.md` in the `/skills` directory.
-- For **platform-specific installation**, refer to the `README.md` in this repository.
+- **Email Templates**: Use the `psy-notify-teacher-input` and `psy-notify-parent-input` skills to generate professional email templates for requesting updates and information from teachers and parents.
+
+## Platform-Specific Instructions
+
+### OpenCode
+
+- **Skill Installation**: Copy the `plugin/skills` folder to `~/.config/opencode/skills/` for global use or to `./.opencode/skills/` for workspace-specific use.
+
+### Other Platforms
+
+- **Antigravity (Google)**: Copy the `plugin/skills` folder to `~/.gemini/config/skills/` or `<workspace-root>/.agents/skills/`.
+- **Claude Code (Anthropic)**: Copy the `plugin/skills` folder to `~/.claude/skills/` or `<workspace-root>/.claude/skills/`.
+- **Codex (OpenAI)**: Copy the `plugin/skills` folder to `~/.agents/skills/` or `<workspace-root>/.agents/skills/`.
+- **Vibe (Mistral AI)**: Copy the `plugin/skills` folder to `~/.vibe/skills/` or `<workspace-root>/.vibe/skills/`.
+
+## Workflow Tips
+
+- **Review and Populate**: Always review the templates and populate placeholders with accurate data before using them.
+- **Consistency**: Ensure consistency in terminology and formatting across all generated documents.
+- **Validation**: Validate the generated narratives and recommendations with clinical standards and guidelines.
+
+## Additional Notes
+
+- **Zero Dependencies**: All tools are designed to be lightweight and portable with no external dependencies.
+- **Privacy-First**: Data processing happens locally or within secure environments.
+- **Professional Standards**: Narrative templates and scoring rules are based on established clinical practices.
