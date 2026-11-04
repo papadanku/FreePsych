@@ -1,0 +1,30 @@
+{
+  "name": "freepsych-plugin",
+  "displayName": "FreePsych",
+  "version": "2026.11.1",
+  "description": "An open-source plugin to help school psychologists in their work.",
+  "author": {
+    "name": "Paul Dang",
+    "email": "pauldang2@gmail.com",
+    "url": "https://papadanku.github.io/"
+  },
+  "homepage": "https://papadanku.github.io/FreePsych/",
+  "repository": "https://github.com/papadanku/FreePsych",
+  "license": "BSD-3-Clause",
+  "skills": "./skills",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "FreePsych",
+        "shortDescription": "An open-source plugin to help school psychologists in their work.",
+        "longDescription": "FreePsych is a repository of tools to help school psychologists automate repetitive tasks in drafting psychological evaluations.",
+        "developerName": "Paul Dang",
+        "category": "Productivity",
+        "capabilities": ["Read", "Skills"],
+        "websiteURL": "https://github.com/papadanku/FreePsych",
+        "composerIcon": "assets/icon.svg",
+        "logo": "assets/icon.svg"
+      }
+    }
+  }
+}
