@@ -1,5 +1,5 @@
 ---
-name: psy-classroom-observation-summarizer
+name: psy-summarize-classroom-observation
 description: "Takes raw classroom observation data in various formats (text, images, PDFs, notes) and generates a comprehensive paragraph-form summary. Use when the user asks to summarize classroom observations or format observation notes into evaluation-ready narrative paragraphs."
 ---
 

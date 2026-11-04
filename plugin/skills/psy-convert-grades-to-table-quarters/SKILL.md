@@ -1,5 +1,5 @@
 ---
-name: psy-convert-to-table-grades-quarters
+name: psy-convert-grades-to-table-quarters
 description: "Convert raw grade data into a professional Markdown table. Use when the user wants to format grade data, report cards, or quarterly academic marks into a standard Markdown table with center-aligned grade columns, bolded grades, and missing data handled by double dashes."
 ---
 # Format Grade Table

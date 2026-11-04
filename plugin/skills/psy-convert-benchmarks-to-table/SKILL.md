@@ -1,5 +1,5 @@
 ---
-name: psy-convert-to-table-benchmarks
+name: psy-convert-benchmarks-to-table
 description: "Converts raw assessment data into a standardized Markdown table with benchmark names, seasons, bolded numeric scores and percentiles, and missing data handling. Use when the user asks to format assessment data or benchmark results into a table."
 ---
 
