@@ -84,10 +84,12 @@ FreePsych's skills are supported in the following products:
 
 1. Open the Claude desktop app.
 1. Click your profile icon in the bottom-left corner.
-1. Select **Skills** from the dropdown menu.
+1. Select **Settings** from the dropdown menu.
+1. In Settings, select **Customize**.
+1. In Customize, select **Skills**.
 1. Click the **Add** button in the top-right corner.
-1. Choose **Upload Skill** from the options.
-1. Drag and drop the `SKILL.md` file from your desired skill folder (e.g., `skills/e6-8-draft-recommendations/SKILL.md`) into the upload box.
+1. Choose the **Upload Skill** option.
+1. Drag and drop the `SKILL.md` file from your desired skill folder (e.g., `skills/psy-draft-recommendations/SKILL.md`) into the upload box.
 1. Click **Upload** to add the skill to your Claude interface.
 
 #### Gemini (Google)
@@ -97,7 +99,7 @@ FreePsych's skills are supported in the following products:
 1. In the settings menu, select **Skills**.
 1. Click the **Create** button in the top-right corner.
 1. Choose **Upload** from the options.
-1. Drag and drop the entire skill folder (e.g., `skills/e6-8-draft-recommendations/`) into the upload box.
+1. Drag and drop the entire skill folder (e.g., `skills/psy-draft-recommendations/`) into the upload box.
 1. Once the upload completes, click **Create** to add the skill.
 
 #### Vibe (Mistral AI)
@@ -106,11 +108,11 @@ FreePsych's skills are supported in the following products:
 1. Click the box in the top-right corner and select **Studio**. This will redirect you to https://console.mistral.ai/
 1. Navigate to the **Skills** section under **Context**.
 1. Click the **Create Skill** button in the top-left corner.
-1. Open the `SKILL.md` file from your desired skill folder (e.g., `skills/e6-8-draft-recommendations/SKILL.md`).
+1. Open the `SKILL.md` file from your desired skill folder (e.g., `skills/psy-draft-recommendations/SKILL.md`).
 1. Copy and paste the following content into the appropriate boxes:
-    - Paste the `name:` field content into the **new-skill** placeholder.
-    - Paste the `description:` field content into the **Required. Use this skill when the user asks to...** placeholder.
-    - Paste the content below the `---` line into the **Write your skill instructions here** placeholder.
+    1. Paste the `name:` field content into the **new-skill** placeholder.
+    1. Paste the `description:` field content into the **Required. Use this skill when the user asks to...** placeholder.
+    1. Paste the content below the `---` line into the **Write your skill instructions here** placeholder.
 1. Click **Create** to finalize the skill setup.
 
 ### Installation Instructions - Plugin
@@ -122,21 +124,26 @@ FreePsych's skills are supported in the following products:
 #### Claude (Anthropic)
 
 1. **Zip the Plugin Folder**:
-   - Locate the `/plugin` folder in the FreePsych repository.
-   - Compress the folder into a `.zip` file.
+   1. Locate the `/plugin` folder in the FreePsych repository.
+   1. Compress the folder into a `.zip` file.
 1. **Install the Plugin in Claude Desktop App**:
-   - Open the Claude Desktop App.
-   - Navigate to the **Plugins** section in the app.
-   - Click **Add Plugin** and select **Install from File**.
-   - Upload the `.zip` file you created from the `/plugin` folder.
-   - Wait for the installation to complete.
+    1. Open the Claude desktop app.
+    1. Click your profile icon in the bottom-left corner.
+    1. Select **Settings** from the dropdown menu.
+    1. In Settings, select **Customize**.
+    1. In Customize, select **Plugins**.
+    1. Click the **Add** button in the top-right corner.
+    1. Choose the **Upload plugin** option.
+    1. Drag the `.zip` file you created from the `/plugin` folder into the **Plugin file** box.
+    1. Click the **Upload** button.
+    1. Wait for the installation to complete.
 1. **Enable the Plugin**:
    - Once installed, the plugin will appear in your list of available plugins.
    - Enable the plugin to make the skills available for use in Claude.
 
 ### General Usage
 
-- The templates are **Markdown-based** and **platform-agnostic**. Simply copy the relevant `.md` file (e.g., `e6-1-draft-interpretation-wj-cog.md`) into your preferred text editor or document tool.
+- The templates are **Markdown-based** and **platform-agnostic**. Simply copy the relevant `.md` file (e.g., `psy-draft-interpretation-wj-cog.md`) into your preferred text editor or document tool.
 - Populate the placeholders with assessment data to generate a polished narrative.
 
 No installation is required beyond copying the files to your desired location.
