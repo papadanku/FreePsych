@@ -30,27 +30,39 @@ FreePsych aims to provide a **free, open-source framework** to help create **str
 - **Privacy-First:** Data processing happens locally or within your own secure Google/CLI environment.
 - **Professional Standards:** Narrative templates and scoring rules are based on established clinical practices and classification tables.
 
-# Applications
+## Applications
 
 FreePsych includes:
 
 - **Psychologist Assistant Skills**: Narrative drafting templates for standardized psychoeducational evaluation reports.
 - **Date Calculator**: A self-contained HTML application for calculating durations between dates and performing date arithmetic.
 
+# Supported Platforms
+
+FreePsych is supported in the following products:
+
+- **ChatGPT (OpenAI)**:
+    - Download ChatGPT: https://chatgpt.com/download/
+    - Download Codex: https://openai.com/codex/
+    - Docs (Skills): https://developers.openai.com/plugins/concepts/skills
+    - Docs (Plugins): https://developers.openai.com/plugins/concepts/plugins
+- **Claude (Anthropic)**: https://claude.com/product/claude-code
+    - Download Claude: https://claude.com/download
+    - Docs (Skills): https://support.claude.com/en/articles/12512180-use-skills-in-claude
+    - Docs (Plugins): https://support.claude.com/en/articles/13837440-use-plugins-in-claude
+- **Gemini (Google)**
+    - Download Antigravity: https://antigravity.google/
+    - Download Gemini: https://gemini.google/desktop/
+    - Docs (Skills): https://docs.cloud.google.com/gemini/enterprise/docs/skills
+- **Vibe (Mistral AI)**: https://mistral.ai/products/vibe/
+- **OpenCode**: https://opencode.ai/
+- And more... https://agentskills.io/clients
+
 ## Psychologist Assistant Skills: *plugin/skills*
 
 The **Psychologist Assistant Skills** directory contains **narrative drafting templates** for standardized psychoeducational evaluation reports. These templates are designed to assist school psychologists in generating professional, consistent, and clinically accurate narratives for assessments like cognitive interpretations, IEP eligibility determinations, and educational planning.
 
 ### Installation Instructions - CLI Agents
-
-FreePsych's skills are supported in the following products:
-
-- **Antigravity (Google)**: https://antigravity.google/
-- **Claude Code (Anthropic)**: https://claude.com/product/claude-code
-- **Codex (OpenAI)**: https://openai.com/codex/
-- **Vibe (Mistral AI)**: https://mistral.ai/products/vibe/
-- **OpenCode**: https://opencode.ai/
-- And more... https://agentskills.io/clients
 
 **Copy** FreePsych's `plugin/skills` folder into the following paths:
 
@@ -71,14 +83,6 @@ FreePsych's skills are supported in the following products:
     - `<workspace-root>/.vibe/skills/` (workspace)
 
 ### Installation Instructions - Skills
-
-- **Claude (Anthropic)**
-    - Desktop App: https://claude.com/download
-    - Docs: https://support.claude.com/en/articles/12512180-use-skills-in-claude
-- **Gemini (Google)**
-    - Desktop App: https://gemini.google/desktop/
-    - Download: https://gemini.google/overview/productivity/
-- **Vibe (Mistral AI)**: https://chat.mistral.ai/work
 
 #### Claude (Anthropic)
 
@@ -117,15 +121,11 @@ FreePsych's skills are supported in the following products:
 
 ### Installation Instructions - Plugin
 
-- **Claude (Anthropic)**
-    - Desktop App: https://claude.com/download
-    - Docs: https://support.claude.com/en/articles/13837440-use-plugins-in-claude
-
 #### Claude (Anthropic)
 
 1. **Zip the Plugin Folder**:
-   1. Locate the `/plugin` folder in the FreePsych repository.
-   1. Compress the folder into a `.zip` file.
+    1. Locate the `/plugin` folder in the FreePsych repository.
+    1. Compress the folder into a `.zip` file.
 1. **Install the Plugin in Claude Desktop App**:
     1. Open the Claude desktop app.
     1. Click your profile icon in the bottom-left corner.
@@ -138,8 +138,8 @@ FreePsych's skills are supported in the following products:
     1. Click the **Upload** button.
     1. Wait for the installation to complete.
 1. **Enable the Plugin**:
-   - Once installed, the plugin will appear in your list of available plugins.
-   - Enable the plugin to make the skills available for use in Claude.
+    1. Once installed, the plugin will appear in your list of available plugins.
+    1. Enable the plugin to make the skills available for use in Claude.
 
 ### General Usage
 
