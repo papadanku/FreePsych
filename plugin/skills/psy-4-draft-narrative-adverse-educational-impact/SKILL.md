@@ -59,4 +59,3 @@ The team considered the potential impact of environmental and economic disadvant
 ```
 The team reviewed _firstname’s educational history to determine if a lack of appropriate instruction in reading or math contributed to _his/her current performance. Records indicate that _firstname has attended school regularly and has been provided with evidence-based core instruction. Despite receiving supplemental small-group interventions targeted at _his/her specific areas of weakness, _firstname has not made expected gains. Therefore, the team determined that a lack of instruction is not the primary factor impacting _his/her ability to progress in the general curriculum.
 ```
-
