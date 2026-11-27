@@ -5,38 +5,39 @@ description: Generate professional BASC-3 social-emotional interpretation narrat
 
 # BASC-3 Interpretation Narrative Generator
 
-Use this skill to generate a formal, technical narrative for the "Social-Emotional" section of a psychoeducational report using the Behavior Assessment System for Children, Third Edition (BASC-3) assessment templates.
+Use this skill to generate a formal, technical narrative for the "Social-Emotional" section of a psychoeducational report using `scripts/generate_basc.py`.
 
-## Available Template Files
+## Workflow
 
-This skill includes three template files in its resource directory:
+1. **Select Mode & Extract Data**: Choose `"multi-rater"` (`scripts/data-basc-multi-rater-scale.json`) or `"self-rater"` (`scripts/data-basc-self-rater-scale.json`). Gather the student's first name, gender/pronouns, rater names, and T-Scores.
+2. **Run the Generator Script**: Pass a JSON payload matching the schema below via `--input <file.json>` or `stdin`:
 
-1. `assets/template-interpretation-basc-multi-rater-scale.md`: Multi-rater (Parent & Teacher) evaluation narrative template.
-2. `assets/template-interpretation-basc-self-rater-scale.md`: Self-Report of Personality (SRP) template for adolescents/older examinees.
-3. `assets/template-interpretation-basc-self-rater-scale-child.md`: Self-Report of Personality (SRP) template for children.
+    ```bash
+    python3 scripts/generate_basc.py --input <input_json_path>
+    ```
 
-Refer to these template files to select and populate the appropriate structure based on the raters provided (Multi-Rater vs. Self-Report Child vs. Self-Report Adolescent).
+    The script loads chunks from the `.json` file (with a blank line between chunks), performs regex find-and-replace for `_firstname`, pronouns, and rater placeholders, fills in T-Scores and classifications, and applies Name Case formatting.
 
-## Instructions for AI
+3. **LLM Output Revisions**: Review the script output and revise as needed:
+    - Adjust rater references and validity statements to match the actual raters and validity results.
+    - Remove or adapt any unadministered scales (e.g., `Sensation Seeking` and `Somatization` for adolescent SRP).
+    - Enforce **Name Case** for Raters' names, Classification Names (`Average`, `At-Risk (*)`, `Clinically Significant (**)`), `T-Score`, and Area Names.
 
-You are a School Psychologist Assistant. Your task is to process raw BASC-3 scores and rater information to complete a professional, report-ready narrative using the appropriate template file structure.
+## Input JSON Schema
 
-## Classification & Formatting Rules
+```json
+{
+    "mode": "<multi-rater|self-rater>",
+    "firstname": "<student_firstname>",
+    "gender": "<male|female|they>",
+    "raters": {
+        "rater1": "<rater1_name>",
+        "rater2": "<rater2_name>"
+    },
+    "scores": {
+        "<Area Name>": {"rater1": "<t_score>", "rater2": "<t_score>"}
+    }
+}
+```
 
-- **Classification Ranges**:
-    - **Clinical & Composite Scales** (Externalizing Problems, Internalizing Problems, School Problems, Inattention/Hyperactivity, Behavioral Symptoms Index, Aggression, Conduct Problems, Anxiety, Depression, Somatization, Attention Problems, Learning Problems, Atypicality, Withdrawal):
-        - **<= 59**: Average
-        - **60–69**: At-Risk (\*)
-        - **>= 70**: Clinically Significant (\*\*)
-    - **Adaptive Scales & Composites** (Adaptive Behavior, Personal Adjustment, Adaptability, Social Skills, Leadership, Activities of Daily Living, Functional Communication, Study Skills):
-        - **>= 41**: Average
-        - **31–40**: At-Risk (\*)
-        - **<= 30**: Clinically Significant (\*\*)
-- **Data Insertion Rules**:
-    - **Bold** all numeric scores (e.g., T-Score = **65**).
-    - **Bold** the student's name (`_firstname`) every time it appears in narrative text.
-    - Append an asterisk (`*`) for **At-Risk** scores and double asterisks (`**`) for **Clinically Significant** scores next to classifications or scores as dictated by template format.
-    - Dynamically replace all template placeholders (`_firstname`, `_boy/girl`, `_he/she`, `_He/She`, `_him/her`, `_His/Her`, `_rater1`, `_rater2`, `[Classification]`, `[??]`, bracketed qualitative descriptions).
-- **Multi-Rater Dynamic Handling**:
-    - Adjust narrative sections to match the actual number and identity of raters (e.g., single parent, single teacher, or multi-rater).
-    - Ensure all pronoun and gender references match the student's profile.
+*(In `self-rater` mode, map each `<Area Name>` directly to `<t_score>`.)*
