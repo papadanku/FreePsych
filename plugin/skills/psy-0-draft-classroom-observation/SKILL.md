@@ -19,13 +19,13 @@ This skill processes raw classroom observation data (from text, images, PDFs, or
 ## Workflow
 
 1. Intake & Extraction: Review all provided source materials (text notes, uploaded PDFs, or images of observation logs) and extract all relevant data points regarding:
-   - Setting and context (e.g., subject, time, activity type).
-   - Student engagement, attention, and on/off-task behaviors.
-   - Academic performance, instructional level, and work completion.
-   - Social interactions with peers and adults.
-   - Behavioral responses to redirection, transitions, or frustration.
+    - Setting and context (e.g., subject, time, activity type).
+    - Student engagement, attention, and on/off-task behaviors.
+    - Academic performance, instructional level, and work completion.
+    - Social interactions with peers and adults.
+    - Behavioral responses to redirection, transitions, or frustration.
 2. Drafting the Narrative: Synthesize the extracted points into professional, flowing paragraph-form narrative(s). Ensure transitions between different observation segments (e.g., independent work vs. direct instruction) are smooth.
 3. Compliance & Quality Check:
-   - Verify that no data points from the source notes were omitted.
-   - Check that sentences are written in the active voice.
-   - Confirm the tone is objective and uses plain English.
+    - Verify that no data points from the source notes were omitted.
+    - Check that sentences are written in the active voice.
+    - Confirm the tone is objective and uses plain English.

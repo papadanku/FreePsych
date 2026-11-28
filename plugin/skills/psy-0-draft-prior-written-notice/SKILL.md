@@ -28,5 +28,5 @@ Select and follow the structure of the appropriate template file based on the co
 2. **Bold Student Name**: Bold the student's name (`_firstname`) every time it appears.
 3. **No Placeholders Left Behind**: Replace every `??` with specific information from the provided student data. If a specific detail is missing, use "the previous district" or a reasonable context-appropriate statement.
 4. **Placeholders**: Use standard placeholders:
-   - Student Name: `_firstname`
-   - Gender Pronouns: `_he/she`, `_He/She`, `_his/her`, `_His/Her`, `_him/her`.
+    - Student Name: `_firstname`
+    - Gender Pronouns: `_he/she`, `_He/She`, `_his/her`, `_His/Her`, `_him/her`.
